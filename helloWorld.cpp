@@ -1,9 +1,10 @@
 #include <iostream>
+using namespace std;
 
 int main()
 {
-    std:: string line;
-    std::cout << "Enter anything ";
-    std::cin >> line;
-    std::cout << "Hello World " << line;
+    string line;
+    cout << "Enter anything ";
+    cin >> line;
+    cout << "Hello World " << line;
 }
