@@ -7,14 +7,14 @@ using namespace std;
 int main(){
     cout << "File based Calculator \n";
 
-    string operation = "";
+    string operation;
     string digit1;
     string digit2;
-    double num1 = 0;
-    double num2 = 0;
-    double result;
     string out_file_name = "output.txt";
-
+    double num1;
+    double num2;
+    double result;
+    
     ifstream myfile;
     ofstream out_myfile(out_file_name);
 
@@ -23,14 +23,9 @@ int main(){
     if(myfile.is_open()){
         if(out_myfile.is_open()){
             getline(myfile, operation);
-            string out_line = operation;
-
             getline(myfile, digit1);
-            string out_line2 = digit1;
-            
             getline(myfile, digit2);
-            string out_line3 = digit2;
-
+        
             num1 = stoi(digit1);
             num2 = stoi(digit2);
 
@@ -50,7 +45,7 @@ int main(){
                 result = num1 / num2;
                 operation = "dividing";
             }
-            out_myfile << "The result of " << operation << " on " << out_line2 << " and " << out_line3 << " is below \n";
+            out_myfile << "The result of " << operation << " on " << num1 << " and " << num2 << " is below \n";
             out_myfile << result;
 
             myfile.close();
