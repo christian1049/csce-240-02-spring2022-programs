@@ -1,0 +1,2 @@
+The result of multiplying on 7 and 2 is below 
+14
