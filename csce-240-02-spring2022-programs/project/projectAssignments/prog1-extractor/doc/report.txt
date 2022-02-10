@@ -1,0 +1,6 @@
+I am confused with what is expected from this project. At first I thought we would be using some sort of program 
+that scans the website for information to fill our chatbot with but from talking with my peers, it appears not to be the case.
+Instead, I copied the information from the website directly and pasted it into a text file. From there, I managed to read 
+in the information into an output file. From the instructions given, it seems like all we had to do was read in the information, 
+report statistics, and then write the content back out which I did. I am looking forward to more instruction on how to proceed
+and I am more than willing to change my program to adhere to more specifications. 
