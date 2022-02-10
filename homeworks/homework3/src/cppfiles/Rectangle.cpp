@@ -12,7 +12,7 @@
         return result;
     }
     string Rectangle::errorMessage(){
-        return "Er!ror";
+        return "Error";
     }
 Rectangle::~Rectangle(){
     

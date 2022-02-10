@@ -12,7 +12,7 @@
         return result;
     }
     string Circle::errorMessage(){
-        return "Erro!r";
+        return "Error";
     }
 Circle::~Circle(){
     

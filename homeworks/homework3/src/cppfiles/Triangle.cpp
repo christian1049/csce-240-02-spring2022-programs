@@ -14,7 +14,7 @@
         return result;
     }
     string Triangle::errorMessage(){
-        return "Error!!";
+        return "Error";
     }
 Triangle::~Triangle(){
 
