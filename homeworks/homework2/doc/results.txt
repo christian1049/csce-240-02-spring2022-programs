@@ -1,3 +1,0 @@
-The code takes in an input file that reads either rectangle, circle, or triangle. The input file also reads numbers that help calculate the area or perimeter
-The code then reads the information and calculates either area or perimeter. If insufficient information is given, it will reflect that.
-The code then prints it into an output.txt file. 
