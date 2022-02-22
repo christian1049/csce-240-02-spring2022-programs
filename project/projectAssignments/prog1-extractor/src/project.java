@@ -56,7 +56,7 @@ public class project {
             }
             writer.write("There are " + lineNumber + " lines\nThere are " + wordCount + " words\nThere are " + charCount
                     + " characters");
-            
+
             reader.close();
             writer.close();
         } catch (Exception e) {
@@ -66,8 +66,7 @@ public class project {
 
     public static void collectData(ArrayList<String> information) {
 
-        try (BufferedReader reader = new BufferedReader(new FileReader(
-                "C:\\Users\\chris\\OneDrive\\Desktop\\CSCE240\\csce-240-02-spring2022-programs\\project\\projectAssignments\\prog1-extractor\\data\\output.txt"))) {
+        try (BufferedReader reader = new BufferedReader(new FileReader("C:\\Users\\chris\\OneDrive\\Desktop\\CSCE240\\csce-240-02-spring2022-programs\\project\\projectAssignments\\prog1-extractor\\data\\output.txt"))) {
             while (reader.ready()) {
                 information.add(reader.readLine());
             }
@@ -117,11 +116,11 @@ public class project {
             } else if (response.toLowerCase().contains("committee assignments")) {
                 System.out.println(committeeAssignments);
             } else if (response.toLowerCase().contains("bills")) {
-                System.out.println(bills);
+                System.out.println("View this link in your browser to see " + bills);
             } else if (response.toLowerCase().contains("voting record")) {
-                System.out.println(votingRec);
+                System.out.println("View this link in your browser to see " + votingRec);
             } else if (response.toLowerCase().contains("service public office")) {
-                System.out.println(servicePubOffice);
+                System.out.println("View this link in your browser to see " + servicePubOffice);
             } else {
                 System.out.println("Try rewording phrase");
             }
