@@ -120,7 +120,7 @@ public class project {
             } else if (response.toLowerCase().contains("voting record")) {
                 System.out.println("View this link in your browser to see " + votingRec);
             } else if (response.toLowerCase().contains("service public office")) {
-                System.out.println("View this link in your browser to see " + servicePubOffice);
+                System.out.println("House of Representatives, 2017 - Present");
             } else {
                 System.out.println("Try rewording phrase");
             }
