@@ -4,3 +4,7 @@ Instead, I copied the information from the website directly and pasted it into a
 in the information into an output file. From the instructions given, it seems like all we had to do was read in the information, 
 report statistics, and then write the content back out which I did. I am looking forward to more instruction on how to proceed
 and I am more than willing to change my program to adhere to more specifications. 
+
+Report 2:
+I am looking for feedback on how to improve my code. I think it will definitely work as a chatbot but also it can be more 
+sophisticated. 
