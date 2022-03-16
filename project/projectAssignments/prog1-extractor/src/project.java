@@ -79,20 +79,20 @@ public class project {
 
     public static void populate(ArrayList<String> information) {
         boolean cont = true;
-        String name = information.get(0) + "\n";
-        String region = information.get(2) + "\n";
-        String addressCola = information.get(3) + "\n";
-        String addressHome = information.get(4) + "\n";
-        String phoneNumberBiz = information.get(5) + "\n";
-        String phoneNumberHome = information.get(6) + "\n";
+        String name = "\nName: "+ information.get(0) + "\n";
+        String region = "\nRegion: "+ information.get(2) + "\n";
+        String addressCola = "\nColumbia Address: "+ information.get(3) + "\n";
+        String addressHome = "\nHome Address: "+ information.get(4) + "\n";
+        String phoneNumberBiz = "\nBusiness Phone Number: "+ information.get(5) + "\n";
+        String phoneNumberHome = "\nHome Phone Number: "+ information.get(6) + "\n";
         String personalInfo = "";
         for (int i = 0; i < 6; i++) {
             personalInfo += "\n" + information.get(i + 10);
         }
-        String committeeAssignments = information.get(17) + "\n";
-        String bills = information.get(7) + "\n";
-        String votingRec = information.get(7) + "\n";
-        String servicePubOffice = information.get(7) + "\n";
+        String committeeAssignments = "\nCommittee Assignments: "+ information.get(17) + "\n";
+        String bills = "\nBills: "+ information.get(7) + "\n";
+        String votingRec = "\nVoting Record: "+ information.get(7) + "\n";
+        String servicePubOffice = "\nService Public Office: "+ information.get(7) + "\n";
         String contact = "\nContact Information: \n";
         contact = contact + name + region + addressCola + addressHome + phoneNumberBiz + phoneNumberHome;
         String all = name+region+addressCola+addressHome+phoneNumberBiz+phoneNumberHome+personalInfo+bills+servicePubOffice;
@@ -112,13 +112,13 @@ public class project {
                 getWorkAddress(addressCola);
             } else if (response.toLowerCase().contains("home") && response.toLowerCase().contains("address")) {
                 getHomeAddress(addressHome);
-            } else if (response.toLowerCase().contains("work") && (response.toLowerCase().contains("phone")
+            } else if ((response.toLowerCase().contains("work") || response.toLowerCase().contains("business")) && (response.toLowerCase().contains("phone")
                     || response.toLowerCase().contains("number")) || response.toLowerCase().contains("work phone number")) {
                 getWorkPhone(phoneNumberBiz);
             } else if (response.toLowerCase().contains("home") && response.toLowerCase().contains("phone")
                     || response.toLowerCase().contains("number") || response.toLowerCase().contains("home phone number")) {
                 getHomePhone(phoneNumberHome);
-            } else if (response.toLowerCase().contains("personal") || response.toLowerCase().contains("information")) {
+            } else if (response.toLowerCase().contains("personal")) {
                 getPersonalInfo(personalInfo);
             } else if (response.toLowerCase().contains("committee")) {
                 getCommitteeAssign(committeeAssignments);
@@ -149,43 +149,43 @@ public class project {
     }
 
     public static void getName(String name) {
-        System.out.println("\n" + name);
+        System.out.println(name);
     }
 
     public static void getRegion(String region) {
-        System.out.println("\nRegion: " + region);
+        System.out.println(region);
     }
 
     public static void getWorkAddress(String workAdd) {
-        System.out.println("\nWork Address: " + workAdd);
+        System.out.println(workAdd);
     }
 
     public static void getHomeAddress(String homeAdd) {
-        System.out.println("\nHome Address: " + homeAdd);
+        System.out.println(homeAdd);
     }
 
     public static void getWorkPhone(String workPhone) {
-        System.out.println("\nWork Phone Number: " + workPhone);
+        System.out.println(workPhone);
     }
 
     public static void getHomePhone(String homePhone) {
-        System.out.println("\nHome Phone Number: " + homePhone);
+        System.out.println(homePhone);
     }
 
     public static void getPersonalInfo(String personalInfo) {
-        System.out.println("\nPersonal Information:\n" + personalInfo + "\n");
+        System.out.println(personalInfo);
     }
 
     public static void getCommitteeAssign(String committeeAssign) {
-        System.out.println("\nCommittee Assignments: " + committeeAssign);
+        System.out.println(committeeAssign);
     }
 
     public static void getBills(String bills) {
-        System.out.println("\nView this link in your browser to see bills " + bills);
+        System.out.println(bills);
     }
 
     public static void getRecord(String record) {
-        System.out.println("\nView this link in your browser to see voting record " + record);
+        System.out.println(record);
     }
 
     public static void getServicePublic() {
