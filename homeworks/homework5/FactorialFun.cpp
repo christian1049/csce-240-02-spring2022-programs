@@ -37,7 +37,10 @@ int combination(int n, int r)
     else if (r == -1)
     {
         int ntotal = n;
-        while (n != 1)
+        if(n = 0){
+            ntotal = 1;
+        }
+        while (n != 1 || n != 0)
         {
             ntotal *= n - 1;
             n--;
