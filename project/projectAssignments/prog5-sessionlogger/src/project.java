@@ -131,7 +131,6 @@ public class project {
                 
                 scanner.nextLine();
             }
-            System.out.println("TEST");
                 FileWriter fw = new FileWriter("chat_statistics.csv", true);
                 System.out.println(counter);
                 fw.append(String.valueOf(counter));
@@ -179,7 +178,6 @@ public class project {
             File p = new File("..\\data\\chat_statistics.csv");
             
             if (p.length() == 0) {
-                System.out.println("HE");
                 FileWriter filer = new FileWriter("chat_statistics.csv", true);
                 // BufferedWriter filers = new BufferedWriter(new FileWriter(p, false));
 
@@ -214,7 +212,6 @@ public class project {
 
                 FileWriter fileWriter = new FileWriter(f.getName(), true);
                 BufferedWriter writer = new BufferedWriter(new FileWriter(f, true));
-                System.out.println(f.getAbsolutePath());
                 System.out.println("What would you like to know about your representative?");
                 String response = keyboard.nextLine();
 
