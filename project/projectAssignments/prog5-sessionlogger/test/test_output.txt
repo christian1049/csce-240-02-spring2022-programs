@@ -1,0 +1,30 @@
+Support command line options:
+    name
+    region
+    work address / columbia address
+    home address
+    work phone number
+    home phone number
+    personal information
+    committee assignments
+    bills
+    voting record
+    service public office
+output:
+    -William Scott Cogswell, Jr.
+    -District 110 - Charleston County
+    -310B Blatt Bldg. Columbia 29201
+    -1360 Truxtun Ave. Suite 200, N. Charleston 29405
+    -(803) 212-6950
+    -(843) 577-2088
+    -Born January 14, 1975 in Charleston
+    -Son of the late W.S. Cogswell, and Edmund and Sarah Aichele Cogswell Rhett; University of the South-Sewanee, B.A., 1997; Columbia University, MSRED, 2003
+        September 21, 2002 married Lucile Lampton, 2 children, W. Mason and Meade Hamlin
+        Historic Charleston Foundation Board, 2009-, Advocacy Chairman, 2016-
+        Peninsula Adv. Comm, 2010-, Chairman, 2016-
+        Member, Grace Episcopal Church
+    -Labor, Commerce and Industry
+    -View this link in your browser to see https://www.scstatehouse.gov/member.php?code=0374999955
+    -View this link in your browser to see https://www.scstatehouse.gov/member.php?code=0374999955
+    -House of Representatives, 2017 - Present
+    
