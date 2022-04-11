@@ -125,12 +125,13 @@ public class project {
             String line = null;
             Scanner scanner = new Scanner(new File("chat_statistics.csv"));
             scanner.useDelimiter("\n");
-            int counter = 0;
+            double counter = 0;
             while(scanner.hasNextLine()){
                 counter++;
                 
                 scanner.nextLine();
             }
+            counter = (int)Math.ceil(counter/3);
                 FileWriter fw = new FileWriter("chat_statistics.csv", true);
                 fw.append(String.valueOf(counter));
                 fw.append(",");
@@ -282,6 +283,9 @@ public class project {
                         countC++;
                     } else if (i.toLowerCase().contains("everything") || i.toLowerCase().contains("all")) {
                         countE++;
+                    } else if (i.toLowerCase().contains("quit") || i.toLowerCase().contains("q")){
+                        System.out.println("Goodbye!");
+                        System.exit(0);
                     }
                 }
                 r = null;
