@@ -1,0 +1,19 @@
+User Output: 
+name
+
+System Output: 
+Name: William Scott Cogswell, Jr.
+
+User Output: 
+region
+
+System Output: 
+Region: District 110 - Charleston County
+
+User Output: 
+phone number
+
+System Output: 
+Business Phone Number: (803) 212-6950
+
+Number of user inputs 3. Number of system outputs 3. Time of session 8 seconds

@@ -132,7 +132,6 @@ public class project {
                 scanner.nextLine();
             }
                 FileWriter fw = new FileWriter("chat_statistics.csv", true);
-                System.out.println(counter);
                 fw.append(String.valueOf(counter));
                 fw.append(",");
                 fw.append(i);

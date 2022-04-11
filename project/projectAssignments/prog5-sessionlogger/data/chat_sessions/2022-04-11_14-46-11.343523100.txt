@@ -5,15 +5,15 @@ System Output:
 Name: William Scott Cogswell, Jr.
 
 User Output: 
-phone number
+address
 
 System Output: 
-Business Phone Number: (803) 212-6950
+Columbia Address: 310B Blatt Bldg. Columbia 29201
 
 User Output: 
-home phone
+home address
 
 System Output: 
-Home Phone Number: (843) 577-2088
+Home Address: 1360 Truxtun Ave. Suite 200, N. Charleston 29405
 
 Number of user inputs 3. Number of system outputs 3. Time of session 10 seconds
