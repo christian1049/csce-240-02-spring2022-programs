@@ -3,3 +3,5 @@ It also includes the statistics of the number of user inputs, system outputs, an
 
 I have also included the chat_statistics.csv that have all the previous statistics of sessions come in separated by commas.
 
+This is the final culmination of the project. 
+
