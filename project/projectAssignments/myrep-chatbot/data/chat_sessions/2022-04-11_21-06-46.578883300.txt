@@ -1,0 +1,19 @@
+User Output: 
+tell me about the rep
+User Output: 
+where does my rep live
+
+System Output: 
+Home Address: 1360 Truxtun Ave. Suite 200, N. Charleston 29405
+
+User Output: 
+where does the rep live
+
+System Output: 
+Home Address: 1360 Truxtun Ave. Suite 200, N. Charleston 29405
+
+User Output: 
+how do i contact my rep
+User Output: 
+what committee is my rep
+Number of user inputs 5. Number of system outputs 5. Time of session 34 seconds
