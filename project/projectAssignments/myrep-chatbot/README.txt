@@ -5,3 +5,4 @@ I have also included the chat_statistics.csv that have all the previous statisti
 
 This is the final culmination of the project. 
 
+https://youtu.be/dQsk2IhkTrg
