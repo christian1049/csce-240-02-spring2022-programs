@@ -1,3 +1,0 @@
-User Output: 
-what committee is my repo
-Number of user inputs 1. Number of system outputs 1. Time of session 61 seconds

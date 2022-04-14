@@ -132,7 +132,7 @@ public class project {
 
                 scanner.nextLine();
             }
-            counter = (int) Math.ceil(counter / 2);
+            counter = (int) Math.ceil(counter-1 / 2);
             File g = new File("..\\data", "chat_statistics.csv");
             FileWriter fileWriter = new FileWriter(g.getName(), true);
             BufferedWriter writer = new BufferedWriter(new FileWriter(g, true));
